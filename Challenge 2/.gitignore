@@ -1,0 +1,11 @@
+# SQLite File
+*.sqlite3
+
+# Environment Files
+venv/
+env/
+.env
+
+# Byte-compiled / optimized / DLL files
+kitchen/__pycache__/
+api/__pycache__/
