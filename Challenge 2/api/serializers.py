@@ -29,3 +29,6 @@ class RecipeSerializer(serializers.ModelSerializer):
                 unit=ing['unit']
             )
         return recipe
+
+class ChatbotInputSerializer(serializers.Serializer):
+    message = serializers.CharField()
