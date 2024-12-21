@@ -1,2 +1,7 @@
 # SQLite File
 *.sqlite3
+
+# Environment Files
+venv/
+env/
+.env
