@@ -62,7 +62,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-ROOT_URLCONF = 'backend.urls'
+ROOT_URLCONF = 'kitchen.urls'
 
 TEMPLATES = [
     {
